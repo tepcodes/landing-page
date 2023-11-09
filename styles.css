@@ -1,3 +1,135 @@
-* {
-    display: flex;
+* {border: red solid 1px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.header .right-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.left-block .main-text {
+    flex-wrap: wrap;
+}
+
+.secondary-text {
+    font-size: inherit;
+}
+
+button {
+    background-color: #3882f6;
+    color: inherit;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+.inner-block {
+    flex: 1 0.5 0;
+}
+
+.right-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-block .placeholder {
+    width: 300px; 
+    height: 200px;
+    border: 2px dashed #ccc; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.middle-content .main-text {
+    font-size: inherit;
+    margin: 20px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    flex: 1;
+    max-width: 25%;
+    margin: 10px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: #3882f6 solid 1px;
+    margin 0 auto 10px;
+}
+
+.more-info .secondary-text {
+    font-size: inherit;
+}
+
+
+
