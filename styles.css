@@ -7,6 +7,8 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     margin: 0 auto;
+    /* overflow: hidden;
+    height: 100vh; */
 }
 
 .header {
@@ -15,7 +17,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 10px 30px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -208,4 +214,8 @@ button {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 10px ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
